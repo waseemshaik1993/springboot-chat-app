@@ -2,8 +2,7 @@
 FROM openjdk:11
 
 # Add Maintainer Info
-MAINTAINER Rajeev Kumar Singh <callicoder@gmail.com>
-
+MAINTAINER gopal das <gopal1409@gmail.com>
 # Add a volume pointing to /tmp
 VOLUME /tmp
 
