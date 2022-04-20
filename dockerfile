@@ -1,4 +1,3 @@
-root@ansiblemaster:~/springboot-chat-app# cat dockerfile
 FROM openjdk:11
 MAINTAINER John Cena <john@gmail.com>
 VOLUME /tmp
