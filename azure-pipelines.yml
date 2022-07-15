@@ -6,7 +6,9 @@
 trigger:
 - master
 
-pool: default
+pool: 
+  name: 'Default'
+   vmImage: 'jenkinsvm'
 container: maven:3-openjdk-18-slim
 
 steps:
