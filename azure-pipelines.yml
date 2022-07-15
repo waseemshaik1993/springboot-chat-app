@@ -35,5 +35,5 @@ steps:
   displayName: Build
   inputs:
   dockerVersion: 17.09.0-ce
-    releaseType: stable
+  releaseType: stable
   command: build
