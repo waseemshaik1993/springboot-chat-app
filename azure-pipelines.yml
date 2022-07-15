@@ -30,5 +30,6 @@ steps:
     archiveFile: '$(Build.ArtifactStagingDirectory)/$(Build.BuildId).zip'
     replaceExistingArchive: true
 - task: ContainerBuild@0
+  displayName: Build
   inputs:
-    Dockerfile: 'dockerfile'
+    command: build
