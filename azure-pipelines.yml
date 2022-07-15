@@ -13,6 +13,7 @@ pool:
 container: maven:3-openjdk-18-slim
 variables:
           imageName: 'pipelines-javascript-docker'
+          DOCKER_BUILDKIT: 1
 steps:
 - task: Maven@3
   inputs:
