@@ -34,6 +34,6 @@ steps:
 - task: ContainerBuild@0
   displayName: Build
   inputs:
-  dockerVersion: 17.09.0-ce
-  releaseType: stable
-  command: build
+    dockerVersion: 17.09.0-ce
+    releaseType: stable
+    command: build
