@@ -31,9 +31,7 @@ steps:
     archiveType: 'tar'
     archiveFile: '$(Build.ArtifactStagingDirectory)/$(Build.BuildId).zip'
     replaceExistingArchive: true
-- task: ContainerBuild@0
-  displayName: Build
+- task: DockerInstaller@0
   inputs:
-    dockerVersion: 17.09.0-ce
-    releaseType: stable
+    dockerVersion: '17.09.0-ce'
     command: build
