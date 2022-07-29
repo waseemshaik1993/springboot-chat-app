@@ -1,4 +1,4 @@
-FROM quay.io/eclipse/che-java11-maven
+FROM maven:latest
 #copy the source tree and pom.xml to our new container
 COPY ./ ./
 #package our application code
