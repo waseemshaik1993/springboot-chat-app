@@ -109,9 +109,9 @@
 						</goals>
 					</execution>
 				</executions>
+				
 			</plugin>
-		</plugins>
-		<plugin>
+			<plugin>
   <groupId>org.springframework.boot</groupId>
   <artifactId>spring-boot-maven-plugin</artifactId>
   <configuration>
@@ -120,5 +120,10 @@
     </layers>
   </configuration> 
 </plugin>
+			
+		</plugins>
+		
+  
+
 	</build>
 </project>
